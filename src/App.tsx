@@ -100,11 +100,15 @@ function App() {
         <div className="grid grid-cols-1 gap-y-3 sm:grid-cols-2">
           <span className="socialLinks">
             <BsGithub className="mr-1 text-xl" />
-            github.com/romulloleal
+            <a className="underline" href="https://github.com/romulloleal">
+              github.com/romulloleal
+            </a>
           </span>
           <span className="socialLinks">
             <BsLinkedin className="mr-1 text-xl" />
-            linkedin.com/in/romulloleal
+            <a className="underline" href="https://linkedin.com/in/romulloleal">
+              linkedin.com/in/romulloleal
+            </a>
           </span>
           <span className="socialLinks">
             <IoMdMail className="mr-1 text-xl" />
