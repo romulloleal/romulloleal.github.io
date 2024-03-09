@@ -11,7 +11,6 @@
   "educationDescription": "Bachelor in Information Systems - 2022",
   "certifications": "Certifications",
   "workExperience": "Work Experiences",
-<<<<<<< HEAD
   "nidoDesc1": "Full Stack Developer (React and Node)",
   "nidoDesc2": "Real estate company, responsible for migrating legacy PHP systems to new technologies such as React (Next.js) and Node (Nest.js) for better system maintainability with SOLID design pattern.",
   "olgaDesc1": "Full Stack Developer (React and Node)",
@@ -24,16 +23,4 @@
   "ideaisDesc2": "Acting in the maintenance and development of solutions for the Classecon web and mobile system. I was responsible for creating a chat between tenant and employee, and implementing the entire new layout of the web system.",
   "dureinoDesc1": "IT assistant",
   "dureinoDesc2": "Developing simple solutions in delphi, technical support in networks, security cameras and computer maintenance. Also assisting with support for the Radar Empresarial system"
-=======
-  "JobIdeiaTitle": "Junior Full Stack Developer",
-  "JobIdeiaDescription": "As a Full Stack Developer, I worked on the development and maintenance of a system focused on condominium solutions. I collaborated on the front-end using React.js, and on the back-end, I used PHP (CodeIgniter) to create efficient APIs. Contributed to significant improvements, such as optimizing system performance, and migrating the PHP portal to React",
-  "JobDartTitle": "Junior Full Stack Developer",
-  "JobDartDesc": "As a Full Stack Developer, I immersed myself in a variety of stimulating projects such as coupon systems, school systems and for a pharmaceutical industry in another country",
-  "jobPlayMatchTitle": "Frontend Developer",
-  "jobPlayMatchDesc": "I combined my passion for programming and gaming as a Frontend React Developer. I created immersive experiences for Fortnite and League of Legends fans. I contribute to creating experiences that combine fun with meaningful learning. My journey brought technology and education together, redefining how games can enrich the learning process",
-  "jobOlgaTitle": "Full Stack Developer",
-  "jobOlgaDesc": "Collaborated to create efficient solutions that improve the delivery experience. I used the power of React to develop engaging interfaces and, with Node.js, created robust backends that enable a seamless connection between customers, restaurants and delivery people",
-  "jobNidoTitle": "Full Stack Developer",
-  "jobNidoDesc": "I played a central role in technological modernization, contributing to the migration of the legacy PHP system to a modern architecture, with React (Next.js) on the front-end and Node.js (Nest.js) on the back-end. My collaboration resulted in dynamic interfaces and robust APIs, providing an agile and efficient system"
->>>>>>> 8c38d69e756dec64adfa625a5bef8abeeecec2a6
 }
