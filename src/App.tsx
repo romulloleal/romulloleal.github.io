@@ -67,12 +67,16 @@ function App() {
               <div className="title">{translate('certifications')}</div>
               <div className="description">
                 <div className="font-bold">
-                  Bootcamp GoStack (React, Node.js)
+                  Bootcamp GoStack (React, React Native, Node.js)
                 </div>
                 <div>Rocketseat</div>
               </div>
               <div className="description">
-                <div className="font-bold">PHP Orientado a Objetos</div>
+                <div className="font-bold">Full Stack PHP Developer</div>
+                <div>UpInside</div>
+              </div>
+              <div className="description">
+                <div className="font-bold">Laravel Developer</div>
                 <div>UpInside</div>
               </div>
             </div>
