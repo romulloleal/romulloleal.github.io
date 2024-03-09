@@ -8,6 +8,7 @@ import {
   languages,
   currentLanguage,
 } from './utils/Translate';
+import { workExperience } from './data';
 
 function App() {
   return (
@@ -79,62 +80,32 @@ function App() {
           <article className="flex flex-col gap-10 md:w-1/2">
             <div className="topic">
               <div className="title">{translate('workExperience')}</div>
-
-              <div className="description">
-                <div className="font-bold">Nido Tecnologia</div>
-                <div>03/2022 - atual</div>
-                <div>{translate('nidoDesc1')}</div>
-                <div>{translate('nidoDesc2')}</div>
-              </div>
-
-              <div className="description">
-                <div className="font-bold">Olga</div>
-                <div>09/2022 - 12/2022</div>
-                <div>{translate('olgaDesc1')}</div>
-                <div>{translate('olgaDesc2')}</div>
-              </div>
-
-              {/* <div className="description">
-                <div className="font-bold">PlayMatch</div>
-                <div>06/2022 - 09/2022</div>
-                <div>{translate('playmatchDesc1')}</div>
-                <div>{translate('playmatchDesc2')}</div>
-              </div> */}
-
-              <div className="description">
-                <div className="font-bold">Dart Digital</div>
-                <div>06/2021 - 05/2021</div>
-                <div>{translate('dartDesc1')}</div>
-                <div>{translate('dartDesc2')}</div>
-              </div>
-
-              <div className="description">
-                <div className="font-bold">Ideais TI</div>
-                <div>07/2020 - 06/2021</div>
-                <div>{translate('ideaisDesc1')}</div>
-                <div>{translate('ideaisDesc2')}</div>
-              </div>
-
-              <div className="description">
-                <div className="font-bold">Indústrias Dureino</div>
-                <div>08/2019 - 07/2020</div>
-                <div>{translate('dureinoDesc1')}</div>
-                <div>{translate('dureinoDesc2')}</div>
-              </div>
+              {workExperience.map((job) => (
+                <div className="description">
+                  <div className="font-bold">{job.company}</div>
+                  <div>{job.period}</div>
+                  <div className="font-semibold">{translate(job.title)}</div>
+                  <div>{translate(job.desc)}</div>
+                </div>
+              ))}
             </div>
           </article>
         </section>
       </main>
 
       <footer className="flex justify-center items-center p-3 h-32 bottom-0 bg-[#5c73f2] text-white">
-        <div className="grid grid-cols-2 gap-y-3">
+        <div className="grid grid-cols-1 gap-y-3 sm:grid-cols-2">
           <span className="socialLinks">
             <BsGithub className="mr-1 text-xl" />
-            github.com/romulloleal
+            <a className="underline" href="https://github.com/romulloleal">
+              github.com/romulloleal
+            </a>
           </span>
           <span className="socialLinks">
             <BsLinkedin className="mr-1 text-xl" />
-            linkedin.com/in/romulloleal
+            <a className="underline" href="https://linkedin.com/in/romulloleal">
+              linkedin.com/in/romulloleal
+            </a>
           </span>
           <span className="socialLinks">
             <IoMdMail className="mr-1 text-xl" />
