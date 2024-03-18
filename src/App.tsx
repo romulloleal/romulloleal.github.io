@@ -32,7 +32,7 @@ function App() {
 
         <section className="flex items-center flex-col mb-4">
           <div className="font-semibold text-4xl">
-            Romullo Leal, 28 {translate('years')}
+            Romullo Leal, 30 {translate('years')}
           </div>
           <div className="text-2xl text-gray-500">
             {translate('fullStackDeveloper')}
