@@ -1,7 +1,7 @@
 import { BsGithub } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
 import { IoMdMail } from 'react-icons/io';
-import { IoLocationSharp } from 'react-icons/io5';
+import { MdLocalPhone } from 'react-icons/md';
 import {
   translate,
   setLanguage,
@@ -50,8 +50,8 @@ function App() {
             <div className="topic">
               <div className="title">{translate('skills')}</div>
               <div className="description">
-                HTML, CSS, JavaScript, React.js, Node,js, TypeScript, PHP, API,
-                Postgresql, MySQL, Git
+                HTML, CSS, JavaScript, React.js, Node,js, TypeScript, PHP,
+                Laravel, Postgresql, MySQL, TypeORM, Prisma, Git
               </div>
             </div>
             <div className="topic">
@@ -100,6 +100,14 @@ function App() {
       <footer className="flex justify-center items-center p-3 h-32 bottom-0 bg-[#5c73f2] text-white">
         <div className="grid grid-cols-1 gap-y-3 sm:grid-cols-2">
           <span className="socialLinks">
+            <IoMdMail className="mr-1 text-xl" />
+            romulloleal@gmail.com
+          </span>
+          <span className="socialLinks">
+            <MdLocalPhone className="mr-1 text-xl" />
+            86 9 9545-3986
+          </span>
+          <span className="socialLinks">
             <BsGithub className="mr-1 text-xl" />
             <a className="underline" href="https://github.com/romulloleal">
               github.com/romulloleal
@@ -110,14 +118,6 @@ function App() {
             <a className="underline" href="https://linkedin.com/in/romulloleal">
               linkedin.com/in/romulloleal
             </a>
-          </span>
-          <span className="socialLinks">
-            <IoMdMail className="mr-1 text-xl" />
-            romulloleal@gmail.com
-          </span>
-          <span className="socialLinks">
-            <IoLocationSharp className="mr-1 text-xl" />
-            Teresina, Piauí
           </span>
         </div>
       </footer>
