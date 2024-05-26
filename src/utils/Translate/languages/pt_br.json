@@ -11,6 +11,7 @@
   "educationDescription": "Bacharelado em Sistemas da Informação - 2022",
   "certifications": "Cursos Complementares",
   "workExperience": "Experiência Profissional",
+  "current": "atual",
   "JobIdeiaTitle": "Desenvolvedor Full Stack Junior",
   "JobIdeiaDescription": "Como Desenvolvedor Full Stack, atuava no desenvolvimento e manutenção de um sistema focado em soluções condominiais. Colaborei no front-end usando React.js, e no back-end, utilizei PHP (CodeIgniter) para criar APIs eficientes. Contribuí para melhorias significativas, como otimização de desempenho do sistema, e a migração do portal em PHP para React",
   "JobDartTitle": "Desenvolvedor Full Stack Junior",
@@ -20,5 +21,7 @@
   "jobOlgaTitle": "Desenvolvedor Full Stack Pleno",
   "jobOlgaDesc": "Colaborei para criar soluções eficientes que melhoram a experiência de entrega. Utilizei o poder do React para desenvolver interfaces envolventes e, com Node.js, criei back-ends robustos que permitem uma conexão perfeita entre clientes, restaurantes e entregadores",
   "jobNidoTitle": "Desenvolvedor Full Stack",
-  "jobNidoDesc": "Desempenhei um papel central na modernização tecnológica, contribuindo na migração do sistema legado em PHP para uma arquitetura moderna, com React (Next.js) no front-end e Node.js (Nest.js) no back-end. Minha colaboração resultou em interfaces dinâmicas e APIs robustas, proporcionando um sistema ágil e eficiente"
+  "jobNidoDesc": "Desempenhei um papel central na modernização tecnológica, contribuindo na migração do sistema legado em PHP para uma arquitetura moderna, com React (Next.js) no front-end e Node.js (Nest.js) no back-end. Minha colaboração resultou em interfaces dinâmicas e APIs robustas, proporcionando um sistema ágil e eficiente",
+  "jobGetCodesTitle": "Desenvolvedor Full Stack",
+  "jobGetCodesDesc": "Trabalhando como freelancer em diversos sistemas (gestão escolar, sistem de helpdesk, bots para whatsapp)"
 }
