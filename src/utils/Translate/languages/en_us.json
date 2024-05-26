@@ -11,6 +11,7 @@
   "educationDescription": "Bachelor in Information Systems - 2022",
   "certifications": "Certifications",
   "workExperience": "Work Experiences",
+  "current": "current",
   "JobIdeiaTitle": "Junior Full Stack Developer",
   "JobIdeiaDescription": "As a Full Stack Developer, I worked on the development and maintenance of a system focused on condominium solutions. I collaborated on the front-end using React.js, and on the back-end, I used PHP (CodeIgniter) to create efficient APIs. Contributed to significant improvements, such as optimizing system performance, and migrating the PHP portal to React",
   "JobDartTitle": "Junior Full Stack Developer",
@@ -20,5 +21,7 @@
   "jobOlgaTitle": "Full Stack Developer",
   "jobOlgaDesc": "Collaborated to create efficient solutions that improve the delivery experience. I used the power of React to develop engaging interfaces and, with Node.js, created robust backends that enable a seamless connection between customers, restaurants and delivery people",
   "jobNidoTitle": "Full Stack Developer",
-  "jobNidoDesc": "I played a central role in technological modernization, contributing to the migration of the legacy PHP system to a modern architecture, with React (Next.js) on the front-end and Node.js (Nest.js) on the back-end. My collaboration resulted in dynamic interfaces and robust APIs, providing an agile and efficient system"
+  "jobNidoDesc": "I played a central role in technological modernization, contributing to the migration of the legacy PHP system to a modern architecture, with React (Next.js) on the front-end and Node.js (Nest.js) on the back-end. My collaboration resulted in dynamic interfaces and robust APIs, providing an agile and efficient system",
+  "jobGetCodesTitle": "Full Stack Developer",
+  "jobGetCodesDesc": "Working as a freelancer in different systems (school management, helpdesk system, WhatsApp bots)"
 }

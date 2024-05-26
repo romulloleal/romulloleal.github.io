@@ -3,11 +3,12 @@ import { BsLinkedin } from 'react-icons/bs';
 import { IoMdMail } from 'react-icons/io';
 import { MdLocalPhone } from 'react-icons/md';
 import {
-  translate,
-  setLanguage,
-  languages,
   currentLanguage,
+  languages,
+  setLanguage,
+  translate,
 } from './utils/Translate';
+
 import { workExperience } from './data';
 
 function App() {
@@ -85,7 +86,7 @@ function App() {
             <div className="topic">
               <div className="title">{translate('workExperience')}</div>
               {workExperience.map((job) => (
-                <div className="description">
+                <div className="description" key={job.company}>
                   <div className="font-bold">{job.company}</div>
                   <div>{job.period}</div>
                   <div className="font-semibold">{translate(job.title)}</div>
